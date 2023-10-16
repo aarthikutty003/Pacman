@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="container">
-        <img id="pac-right" src="PacMan1.png">
+        <img id="pac-right" src="./pacman img/PacMan1.png">
     </div>
 
     <script>
@@ -38,15 +38,15 @@
             }
  if (((position / 20) % 2) !== 0) {
                 if (direction === 1) {
-                    pacman1.src="PacMan2.png";
+                    pacman1.src="./pacman img/PacMan2.png";
                 } else {//direction===-1
-                    pacman1.src="PacMan4.png";
+                    pacman1.src="./pacman img/PacMan4.png";
                 }
             } else {//===0
                 if (direction === 1) {
-                    pacman1.src="PacMan1.png";
+                    pacman1.src="./pacman img/PacMan1.png";
                 } else {
-                    pacman1.src="PacMan3.png";
+                    pacman1.src="./pacman img/PacMan3.png";
                 }
             }
  pacman1.style.left=position+ 'px';
